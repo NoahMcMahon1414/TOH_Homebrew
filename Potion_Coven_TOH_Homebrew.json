@@ -1,5 +1,6 @@
 {
-	"_meta": {
+        "$schema": "https://raw.githubusercontent.com/NoahMcMahon1414/TOH_Homebrew/main/Potion_Coven_TOH_Homebrew.json",
+        "_meta": {
 		"sources": [
 			{
 				"json": "Owl House Homewbrew",
