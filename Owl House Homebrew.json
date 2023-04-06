@@ -644,37 +644,34 @@
 	],
 	"class": [
 		{
-			"name": "Reaper",
-			"source": "FFXIV",
-			"preparedSpells": "<$level$> + <$int_mod$>",
+			"name": "Potions",
+			"source": "TOH",
+			"preparedSpells": "<$level$> + <$dex_mod$>",
 			"page": 83,
 			"hd": {
 				"number": 1,
-				"faces": 10
+				"faces": 8
 			},
 			"proficiency": [
 				"str",
-				"wis"
+				"int"
 			],
 			"startingProficiencies": {
 				"armor": [
 					"light",
 					"medium"
 				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
 				"skills": [
 					{
 						"choose": {
 							"from": [
-								"arcana",
-								"athletics",
-								"insight",
-								"intimidation",
+								"acrobatics",
+								"sleight of hand",
+								"stealth",
+								"medicine",
 								"perception",
-								"religion"
+								"insight",
+								"athletics"
 							],
 							"count": 2
 						}
@@ -684,73 +681,24 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) {@item battle scythe|FFXIV} or (b) one {@filter martial weapon|items|source=phb|category=basic|type=martial weapon}",
-					"(a) two {@item handaxe|phb|handaxes} or (b) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts}",
-					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
-					"(a) {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"a Momento bestowed to the reaper by the voidsent"
-				],
-				"defaultData": [
-					{
-						"a": [
-							"battle scythe|FFXIV"
-						],
-						"b": [
-							{
-								"equipmentType": "weaponMartial"
-							}
-						]
-					},
-					{
-						"a": [
-							{
-								"item": "handaxe|phb",
-								"quantity": 2
-							}
-						],
-						"b": [
-							"light crossbow|phb",
-							"crossbow bolts (20)"
-						]
-					},
-					{
-						"a": [
-							"scale mail|phb"
-						],
-						"b": [
-							"leather armor"
-						]
-					},
-					{
-						"a": [
-							"dungeoneer's pack|phb"
-						],
-						"b": [
-							"explorer's pack|phb"
-						]
-					},
-					{
-						"_": [
-							{
-								"special": "a Momento bestowed to the reaper by the voidsent"
-							}
-						]
-					}
+					"a Palisman and/or staff",
+					"Potions Pouch",
+					"50 gp"
 				]
 			},
 			"classTableGroups": [
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Reaper (FFXIV5E)}",
-						"{@filter 2nd|spells|level=2|class=Reaper (FFXIV5E)}",
-						"{@filter 3rd|spells|level=3|class=Reaper (FFXIV5E)}",
-						"{@filter 4th|spells|level=4|class=Reaper (FFXIV5E)}",
-						"{@filter 5th|spells|level=5|class=Reaper (FFXIV5E)}"
+						"{@filter 1st|spells|level=1|class=Potions (TOH)}",
+						"{@filter 2nd|spells|level=2|class=Potions (TOH)}",
+						"{@filter 3rd|spells|level=3|class=Potions (TOH)}",
+						"{@filter 4th|spells|level=4|class=Potions (TOH)}",
+						"{@filter 5th|spells|level=5|class=Potions (TOH)}"
 					],
 					"rows": [
 						[
-							0,
+							2,
 							0,
 							0,
 							0,
@@ -929,41 +877,23 @@
 				"Ability Score Improvement|Reaper|FFXIV|19",
 				"Vessel of Death|Reaper|FFXIV|20"
 			],
-			"subclassTitle": "Reaper Archetype",
+			"subclassTitle": "Potions Archetype",
 			"fluff": [
 				{
 					"type": "section",
-					"name": "Reaper",
-					"source": "FFXIV",
+					"name": "Potions",
+					"source": "TOH",
 					"page": 1,
 					"entries": [
-						"As a honed blade cuts through the air, the satisfying shearing of wind echoes through the night, interrupted only by the sound of rending flesh. Those who'd harm the realm further are cut down one by one in a flurry of steel by a figure draped in black.",
-						"Two black figures surround a ferocious beast, one wielding a blade like a talon, the other rending the beast with claws, working together to take down the formidable foe in tandem.",
-						"Cloaked in shadows, a figure receits ancient spells, raining destruction on the battle field as a haunting specter keeps the legion of invaders busy. Those who survive the ordeal will have nightmares for the rest of their days.",
-						"The Reaper is an avenger whose goals are achieved through the assistance of the void, leaving a trail of destruction in their wake. Just as a wicked force destroyed their lands, they've taken up arms to bring destructive balance to the world.",
+						"A experienced witch hurls a glass bottle at her enemy, which erupts upon contact and starts to burn.",
+						"A Bug Demon akin to Hooty shoots a bubbling sphere of acid and it explodes, hitting the foot of the enemy basilisk.",
+						"A Biped Demon akin to Braxas runs over to their ally and pours a healing potion into their mouth.",
 						{
 							"type": "entries",
-							"name": "In the Wake of Destruction",
+							"name": "Training",
 							"page": 1,
 							"entries": [
-								"When disaster strikes and countless lives are lost, voidsent are attracted to intense scent of death and the residual aether of the corpses. Seeking to sate their endless hunger for magical energy they appear in these death laden lands. Sometimes unlikely alliances are born from these disasters as those who would seek the power to take revenge for the loss of life promise these scavenging voidsent further nourishment, if they'd only only lend their power to them. Together they set off on a path of destruction to hold those in power accountable at any cost."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Dark Vows",
-							"page": 1,
-							"entries": [
-								"Reapers draw their power from their contract with their special voidsent ally, the Void Avatar. Using the gift of some kind of macabe momento to channel dark magics, Reapers mix martial prowess with magic pulled from the void itself to bring destruction to evil doers."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Creating a Reaper",
-							"page": 1,
-							"entries": [
-								"When creating a reaper, you must consider how they came upon the voidsent that they would form their alliance with. Did they survive a grave disaster? Were they a traveller who was too late to protect the razed location? Perhaps they merely stumbled upon the scene and wanted to stop it from happening again. Whatever their reason, the Reaper has tossed away sentiments of right and wrong and seek only to take retribution for those who have suffered greatly.",
-								"You must also consider where they've learned to balance their martial prowess with dark magics. Has the voidsent imparted more than just arcane arts to the warrior? Did they have a mentor who helped them harness their rage and focus it on the single minded quest for vengeance? The reaper has many talents and combines new found power with them to become the deadly avenger they wish to be."
+								"Potions casters initially learn the magic to create potions of various elemental types in a docile enviroment, such as a school or at home. The following training time is used to develop agility as well as the ability to accurately throw their magical potions."
 							]
 						},
 						{
@@ -971,135 +901,38 @@
 							"name": "Quick Build",
 							"page": 2,
 							"entries": [
-								"You can make a Reaper quickly by following these suggestions. First make Strength your highest ability score, following with Wisdom. Second take the {@background Folk Hero} background."
+								"You can make a Potions caster quickly by following these suggestions. First, make Dexterity your highest ability score, and then take either athletics or acrobatics as a skill."
 							]
 						}
 					]
 				}
 			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"6": {
-							"daily": {
-								"1e": [
-									"see invisibility",
-									"speak with dead"
-								]
-							}
-						}
-					}
-				}
-			],
 			"classSpells": [
-				"Arcane Weapon",
-				"Armor of Agathys",
-				"Arms of Hadar",
-				"Bane",
-				"cause fear|xge",
-				"chaos bolt|xge",
-				"Compelled Duel",
-				"Comprehend Languages",
-				"Cure Wounds",
-				"dark|ffxiv",
-				"Detect Evil and Good",
-				"Detect Magic",
-				"drain|ffxiv",
-				"False Life",
-				"Find Steed",
-				"Fog Cloud",
-				"Gentle Repose",
-				"Hellish Rebuke",
-				"Hex",
-				"Hunter's Mark",
-				"ice knife|xge",
-				"Idenitfy",
-				"Inflict Wounds",
-				"Jump",
-				"Longstrider",
-				"Protection from Evil and good",
-				"Ray of Sickness",
-				"Shield",
-				"Silent Image",
-				"Unseen Servant",
-				"Wrathful Smite",
-				"Alter Self",
-				"Arcane Lock",
-				"Augury",
-				"Blindness/Deafness",
-				"Crown of Madness",
-				"Darkness",
-				"darkra|ffxiv",
-				"Darkvision",
-				"Detect Thoughts",
-				"Enhance Ability",
-				"Enthrall",
-				"Find Traps",
-				"Hold Person",
-				"Invisibility",
-				"Levitate",
-				"Magic Weapon",
-				"Mirror Image",
-				"Misty Step",
-				"Pass without Trace",
-				"Phantasmal Force",
-				"Ray of Enfeeblement",
-				"See Invisibility",
-				"Shadow Blade",
-				"Silence",
-				"Spiritual Weapon",
-				"Zone of Truth",
-				"Animate Dead",
-				"Bestow Curse",
-				"darkga|ffxiv",
-				"Dispel Magic",
-				"Elemental Weapon",
-				"Fear",
-				"Feign Death",
-				"Fly",
-				"Gaseous Form",
-				"Haste",
-				"Hunger of Hadar ",
-				"Hypnotic Pattern",
-				"Life Transference",
-				"Phantom Steed",
-				"Remove Curse",
-				"Speak with Dead",
-				"Spirit Guardians",
-				"spirit shroud|tce",
-				"summon shadowspawn|tce",
-				"summon undead|tce",
-				"Vampiric Touch",
-				"Arcane Eye",
-				"Banishment",
-				"Blight",
-				"Compulsion",
-				"Confusions",
-				"Death Ward",
-				"Dimension Door",
-				"Evard's Black Tentacles",
-				"find greater steed|xge",
-				"Greater Invisibility",
-				"Phantasmal Killer",
-				"shadow of moil|xge",
-				"Staggering Smite",
-				"Antilife Shell",
-				"Banishing Smite",
-				"Circle of Power",
-				"Cloudkill",
-				"Contact Other Plane",
-				"Contagion",
-				"danse macabre|xge",
-				"Desctructive Wave",
-				"enervation|xge",
-				"Hold Monster",
-				"negative energy flood|xge",
-				"Raise Dead",
-				"Scrying",
-				"steel wind strike|xge",
-				"Teleportation Circle"
+				
 			],
-			"spellcastingAbility": "wis",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"spellcastingAbility": "dex",
 			"casterProgression": "1/2"
 		},
 		{
