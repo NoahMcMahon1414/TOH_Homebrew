@@ -325,235 +325,6 @@
 			]
 		}
 	],
-	"variantrule": [
-		{
-			"name": "Xaela Tribes of the Azim Steppe",
-			"page": 117,
-			"source": "FFXIV",
-			"entries": [
-				"A Xaela's last name is the name of their tribe, rather than having a formal family name. They wear this name as a badge of honor and fight to protect their families. Each tribe has its own cultural ideas.",
-				"The Azim Steppe is an amazingly large region of land where 51 known tribes form or disappear as people leave tribes to form their own or are assimilated into other groups.",
-				{
-					"type": "table",
-					"caption": "Xaela Tribes",
-					"colLabels": [
-						"Tribe",
-						"Distinguishing Information"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11 text-center"
-					],
-					"rows": [
-						[
-							"Adarkim",
-							"The largest of the Xaela tribes. While not the most skilled at battle, they overwhelm with numbers, taking losses in stride, knowing that a future victory over a weaker tribe will replenish their ranks."
-						],
-						[
-							"Angura",
-							"A small tribe which keeps mainly to the mountainous region of northeastern Othard. The glare reflected by the everlasting glaciers upon which they travel has rendered this tribe's skin color a deep rusty tone."
-						],
-						[
-							"Arulaq",
-							"A tribe thought lost 200 years ago, only recently discovered once again living in a secluded valley in the mountainous north."
-						],
-						[
-							"Avagnar",
-							"Though defeated and absorbed by the Adarkim, several of the proud tribe's members still secretly use its ancestral name, knowing that it could mean death if they are discovered."
-						],
-						[
-							"Bairon",
-							"A middle-sized tribe of the southern deserts and masters of survival in the driest of climes, the Bairon are all trained from a very young age to collect and drink their own bodily fluids, allowing them the ability to venture deep into places no other tribe will."
-						],
-						[
-							"Bayaqud",
-							"A tribe of the steppe's western edges. Women from the Bayaqud tribe will traditionally take several husbands, as did the tribe's founding matron 2000 years ago."
-						],
-						[
-							"Bolir",
-							"A small tribe that earns its living by collecting the dung of the beastkin herds which roam the steppes. The dung is dried, turned into charcoal in temporary kilns, and sold to other tribes."
-						],
-						[
-							"Borlaaq",
-							"A tribe of all women. While breeding with men from other tribes is allowed, if a male is born into the tribe, he is given up within a year of birth."
-						],
-						[
-							"Buduga",
-							"An all-male tribe which only increases its ranks through battle and kidnapping."
-						],
-						[
-							"Dalamiq",
-							"One of only a few Xaela tribes which has abandoned the nomadic lifestyle and built a small village on an islet in the middle of a two-malm-wide span of the great inner river. It is said they once worshipped the now-fallen lesser moon."
-						],
-						[
-							"Iriq",
-							"A tribe that follows the Borlaaq, taking on any male children given up by the female warriors and raising them as their own."
-						],
-						[
-							"Jhungid",
-							"The second largest Xaela tribe. Mortal enemies with the Kharlu, the Jungid will spend the greater part of the year subjugating smaller tribes to swell their own ranks in preparation for an annual battle with the Kharlu--the winner gaining control over a large part of the eastern coastlands."
-						],
-						[
-							"Kharlu",
-							"The third largest Xaela tribe. Mortal enemies with the Jungid, the Kharlu will spend the greater part of the year subjugating smaller tribes to swell their own ranks in preparation for an annual battle with the Jungid--the winner gaining control over a large part of the eastern coastlands."
-						],
-						[
-							"Khatayin",
-							"A tribe which largely remains unseen, hunting goats in the mountains for nine moons of the year. The remaining three are spent at the foot of the great north range, where they survive off the dried meat they stocked."
-						],
-						[
-							"Malqir",
-							"A western steppe tribe characterized by its unique leader-choosing ritual which, instead of the usual test of brawn, is a game of Kharaqiq--a chess-like game played on a circular board divided into three rings."
-						],
-						[
-							"Mankhad",
-							"A costal tribe which fights with blow-darts made from bones dipped in the poison of the pufferfish. So practiced with the pipes are the tribe, that they can disable a target from 200 paces."
-						],
-						[
-							"Mierqid",
-							"A desert tribe which, over the course of a year, travels between over a hundred secret buried caches of supplies restocked with each annual visit."
-						],
-						[
-							"Noykin",
-							"Master trainers of the wild horses which populate the majority of steppe. It is said that the horsewives of the Noykin can break any beast if given but a week."
-						],
-						[
-							"Olkund",
-							"Selective breeding has seen the average height of the central steppe-dwelling Olkund tribe males reach over two and a half yalms. The females, for whatever reason, remain of an average height."
-						],
-						[
-							"Dazkar",
-							"Household duties such as cooking, cleaning, and childrearing are handled by the males of the Dazkar who, other than when on the move, rarely ever leave their family's yurts. Female Dazkar are tasked with hunting, and are known across the steppe as being some of the most accurate archers in the realm."
-						],
-						[
-							"Oronir",
-							"All members of the Oronir tribe believe themselves to be direct descendants of Azim, the tribe's god of the sun."
-						],
-						[
-							"Oroq",
-							"The Oroq create sleds made of reeds dipped in horse fat to help move their possessions and young children about the inner grasslands."
-						],
-						[
-							"Qerel",
-							"The warriors of this tribe all wear complete suits of armor crafted from the bones of steppe tigers which they kill with their own hands upon their coming of age."
-						],
-						[
-							"Torgud",
-							"This desert tribe does not wear any clothes, choosing instead to cover their bodies almost entirely in a white paint created from mud, lime, and bone meal. The paint helps to reflect the relentless desert sun."
-						],
-						[
-							"Tumet",
-							"The children of the Tumet, upon seeing their tenth summer, are tied to a sacred tree while the remainder of the tribe packs up and moves to their next location. Those children who manage to break free from their bonds and catch up with the tribe at that next location, are given a name and allowed into the tribe."
-						],
-						[
-							"Ugund",
-							"When members of this tribe die, their heads are removed from their bodies and placed in a jar of fermented goat milk. Once the liquid has been drunk by the head (in other words, evaporated), the head is then buried under an anthill so that the tiny workers can carry the spirit to the afterlife. The journey is thought to be a terrible one, the road filled with ghosts of the damned, so ensuring the spirit is drunk helps ease the journey."
-						],
-						[
-							"Uyagir",
-							"One of a handful of Xaela tribes which have given up the nomadic lifestyle. The Uyagir reside in a system of limestone caves on the northern edge of the southern deserts which are believed to have been dug by a race of giant oliphant-like beetles which were placed on the land by the gods to punish the elder tribes that had grown too greedy."
-						],
-						[
-							"Dhoro",
-							"An elusive tribe that avoids contact with most other tribes. Lookouts are posted all about their camps with orders to flee given the moment an outsider is spotted."
-						],
-						[
-							"Orben",
-							"A tribe that rides up and down the great inner river on boats woven from reeds and reinforced with scales from their own skin."
-						],
-						[
-							"Ejinn",
-							"A river tribe that chooses to swim from place to place rather than walk or take boats. It is said that members of the Ejinn can hold their breaths for up to a quarter bell, and will often migrate while almost completely submerged in order to avoid contact with hostile tribes."
-						],
-						[
-							"Dotharl",
-							"An extremely violent tribe with members who revel in massacre and are taught from a young age not to fear death. While they are quick to attack other tribes, mortality rates are high, ensuring that their numbers never grow too high."
-						],
-						[
-							"Hotgo",
-							"A tribe recently massacred by the Dotharl. The only members surviving are those who left the tribe to travel on their own and were not present during the killing. The Hotgo were known for their vibrant face paints which members would constantly change depending on their current mood."
-						],
-						[
-							"Sagahl",
-							"A tribe which sees all beastkin as equals with man, therefore refuses to eat or use them as beasts of burden. As a result, the diet of the Sagahl mainly consists of steppe shrubs and vilekin."
-						],
-						[
-							"Kahkol",
-							"A tribe made up of orphans and refugees from tribes defeated or destroyed. Many choose to combine the name of their old tribe with Kahkol."
-						],
-						[
-							"Kha",
-							"Unlike most of the Xaela, the Kha live on the fringes of the Xaela lands, actively seeking contact with non Auri peoples, introducing many aspects of those cultures into their own."
-						],
-						[
-							"Mol",
-							"A small tribe of devout worshippers of the elder gods, the Mol will consult with their deities (via a shaman conduit) before making any tribe-related decisions, from the direction of their next migration, to the beasts they will hunt each day for food."
-						],
-						[
-							"Gesi",
-							"The Gesi are masters of the slingspear, a mid-sized javelin carved from mammoth bone which, instead of being thrown by hand, is flung with a leather sling to improve range, speed, and killing power."
-						],
-						[
-							"Kagon",
-							"The Kagon are a nocturnal desert tribe who worship Nhaama, goddess of the moon and mortal enemy of Azim, god of the sun. Instructed by their goddess that to step into the sun is to succumb to the evil of Azim, they spend the daylight hours in their tents, only emerging to hunt and migrate at night. The result is an uncharacteristically pale skin for a group of people living in an almost eternally fair-weather locale."
-						],
-						[
-							"Goro",
-							"The Goro believe horses to be perfect beings, and each male and female, upon their coming of age, is married to a horse of the opposite sex. Reproductive mates are chosen by lots."
-						],
-						[
-							"Gharl",
-							"Before each migration, the Gharl will fill a sacred urn with the soil of the place they just camped. This soil is then dumped upon arriving at the next location. This tradition has been carried out for thousands of years, leading people to believe that most the steppe is now all of one soil."
-						],
-						[
-							"Dataq",
-							"The Dataq cover quite possibly the most area in their migrations, for they rarely stop in one area for longer than a few bells. Sleeping is all done in the saddle, and tents are only used when the rains are heavy and unbearable."
-						],
-						[
-							"Haragin",
-							"The legends of this coastal tribe tell of a group of their ancestors who crafted a giant ship and sailed out across the endless eastern ocean. The explorers are said to have returned with tales of a terrible island covered in massive grey monoliths and inhabited by fire-breathing steel demons."
-						],
-						[
-							"Ura",
-							"This mountain-dwelling tribe is one of the few which instead of hunting, mine the precious ores of the peaks and trade them with the steppe tribes for food."
-						],
-						[
-							"Moks",
-							"A tribe invisible for the fact that its members are spread out across many different tribes (unbeknownst to those tribes). Communication between its members is done on the rare occasion when two tribes meet, through an ancient set of hand signals only recognizable by those who know what they are looking for."
-						],
-						[
-							"Geneq",
-							"In addition to the standard language used by most of the Xaela in cross-tribe communication, the Geneq employ a complex system of whistles and clicks which resemble the cloud- and wavekin of the steppe."
-						],
-						[
-							"Horo",
-							"To those who live the meager lifestyles of the steppedwellers, being overweight is a symbol of affluence and power. To appear heavier than one in their station, the members of Horo will drink copious amounts of water to bloat their bellies."
-						],
-						[
-							"Himaa",
-							"For reasons unknown, one out of every three pregnancies amongst the Himaa result in twins. As a result, over half the tribe's members have a doppelganger. This can prove an advantage during attacks, as it confuses the enemy into believing the dead have risen."
-						],
-						[
-							"Malaguld",
-							"One of the only tribes that accepts people of the Raen--those that have been exiled, or those who have fled persecution--into their circle."
-						],
-						[
-							"Urumet",
-							"This desert tribe has the queer custom of travelling with their elders carried upon their shoulders. It is believed that in the flat desert, this gives the tribe the advantage of being able to see farther."
-						],
-						[
-							"Qalli",
-							"Also known as the songbirds of the steppe, the Qalli communicate through song, attaching a melody to their words to further add emotion to the meaning."
-						],
-						[
-							"Qestir",
-							"This tribe refuses to speak, believing that all words are lies, and that a man's actions are the purest form of communication."
-						]
-					]
-				}
-			]
-		}
-	],
 	"race": [
 		{
 			"name": "Witch",
@@ -575,7 +346,7 @@
 							"cha"
 						],
 						"count": 1,
-						"amount": 1
+						"amount": 2
 					}
 				}
 			],
@@ -587,7 +358,8 @@
 			"skillProficiencies": [
 				{
 					"arcana": true,
-					"perception": true
+					"perception": true,
+					"medicine": true
 				}
 			],
 			"entries": [
@@ -624,6 +396,247 @@
 					"type": "entries",
 					"entries": [
 						"You can speak, read and write Common."
+					]
+				}
+			]
+		},
+		{
+			"name": "Biped Demon",
+			"source": "TOH",
+			"page": 6,
+			"speed": 35,
+			"size": [
+				"M"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"int"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"demon": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"insight",
+							"perception",
+							"investigation",
+							"nature",
+							"arcana",
+							"history",
+							"religion"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Biped Demons age very similarly to witches, with most achieving adulthood around 25 years old."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Biped Demons seem to fit in with normal society, as well as with witch society."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Most biped demons regardless of gender range from 5 to 7 ft. Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your base walking speed is 35ft."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read and write Common and Demon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Beast Demon",
+			"source": "TOH",
+			"page": 7,
+			"speed": 25,
+			"size": [
+				"M"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"demon": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"survival",
+							"insight",
+							"investigation",
+							"animal handling",
+							"nature"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Beast Demons are generally animals, and age very differently depending on the type of beast."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Beast Demons are removed from society and most often live in nature on their own."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"There are various sizes of beasts in the Demon Realm. Your default size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your base walking speed is 25ft."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read and write Common and Demon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bug Demon",
+			"source": "TOH",
+			"page": 8,
+			"speed": 30,
+			"size": [
+				"M"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"cha"
+						],
+						"count": 1,
+						"amount": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"demon": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"intimidation",
+							"persuasion",
+							"performance",
+							"acrobatics",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Bug Demons age very differently depending upon what bug demon you are referring to."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Bug Demons, like Beast Demons, typically live in nature by themselves."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Bug Demons exist in various sizes. Your default size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your base walking speed is 30ft."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read and write Common and Demon."
 					]
 				}
 			]
