@@ -841,41 +841,40 @@
 				}
 			],
 			"classFeatures": [
-				"Bonus Language|Reaper|FFXIV|1",
-				"Dark Alliance|Reaper|FFXIV|1",
-				"Fighting Style|Reaper|FFXIV|2",
-				"Spellcasting|Reaper|FFXIV|2",
+				"Potion Formulas|Potions|TOH|1",
+				"Fighting Style|Potions|TOH|2",
+				"Spellcasting|Potions|TOH|2",
 				{
-					"classFeature": "Reaper Archetype|Reaper|FFXIV|3",
+					"classFeature": "Reaper Archetype|Potions|TOH|3",
 					"gainSubclassFeature": true
 				},
-				"Veil of Shadows|Reaper|FFXIV|3",
-				"Ability Score Improvement|Reaper|FFXIV|4",
-				"Extra Attack|Reaper|FFXIV|5",
-				"Sixth Sense|Reaper|FFXIV|6",
+				"Veil of Shadows|Potions|TOH|3",
+				"Ability Score Improvement|Potions|TOH|4",
+				"Extra Attack|Potions|TOH|5",
+				"Sixth Sense|Potions|TOH|6",
 				{
-					"classFeature": "Archetype Feature|Reaper|FFXIV|7",
+					"classFeature": "Archetype Feature|Potions|TOH|7",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Reaper|FFXIV|8",
-				"Reaper Art: Reaping Rondo|Reaper|FFXIV|9",
-				"Reaper Art: Memento Mori|Reaper|FFXIV|10",
+				"Ability Score Improvement|Potions|TOH|8",
+				"Reaper Art: Reaping Rondo|Potions|TOH|9",
+				"Reaper Art: Memento Mori|Potions|TOH|10",
 				{
-					"classFeature": "Archetype Feature|Reaper|FFXIV|11",
+					"classFeature": "Archetype Feature|Potions|TOH|11",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Reaper|FFXIV|12",
-				"Shadow Walk|Reaper|FFXIV|13",
-				"Void Gaze|Reaper|FFXIV|14",
+				"Ability Score Improvement|Potions|TOH|12",
+				"Shadow Walk|Potions|TOH|13",
+				"Void Gaze|Potions|TOH|14",
 				{
-					"classFeature": "Archetype Feature|Reaper|FFXIV|15",
+					"classFeature": "Archetype Feature|Potions|TOH|15",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Reaper|FFXIV|16",
-				"Dark Martyr|Reaper|FFXIV|17",
-				"Gate of Tartarus|Reaper|FFXIV|18",
-				"Ability Score Improvement|Reaper|FFXIV|19",
-				"Vessel of Death|Reaper|FFXIV|20"
+				"Ability Score Improvement|Potions|TOH|16",
+				"Dark Martyr|Potions|TOH|17",
+				"Gate of Tartarus|Potions|TOH|18",
+				"Ability Score Improvement|Potions|TOH|19",
+				"Vessel of Death|Potions|TOH|20"
 			],
 			"subclassTitle": "Potions Archetype",
 			"fluff": [
@@ -908,7 +907,43 @@
 				}
 			],
 			"classSpells": [
-				
+				"acid splash",
+				"ray of frost",
+				"guidance",
+				"resistance",
+				"mage hand",
+				"message",
+				"thunderclap",
+				"fire bolt",
+				"absorb elements",
+				"chaos bolt",
+				"chromatic orb",
+				"grease",
+				"ice knife",
+				"thunderwave",
+				"witchbolt",
+				"aganazzar's scorcher",
+				"dragon's breath",
+				"invisibility",
+				"rime's binding ice",
+				"shatter",
+				"web",
+				"slow",
+				"gaseous form",
+				"haste",
+				"water breathing",
+				"water walk",
+				"fly",
+				"elemental bane",
+				"fire shield",
+				"ice storm",
+				"polymorph",
+				"stoneskin",
+				"wall of fire",
+				"animate objects",
+				"bigby's hand",
+				"wall of stone",
+				"teleportation"
 			],
 			"cantripProgression": [
 				2,
@@ -7887,29 +7922,15 @@
 	],
 	"classFeature": [
 		{
-			"name": "Bonus Language",
-			"source": "FFXIV",
-			"className": "Reaper",
-			"classSource": "FFXIV",
-			"page": 3,
-			"level": 1,
-			"entries": [
-				"You can read, speak, write and understand Abyssal.",
-				"{@note This feature is added due to technical limitations.}"
-			]
-		},
-		{
-			"name": "Dark Alliance",
-			"source": "FFXIV",
-			"className": "Reaper",
-			"classSource": "FFXIV",
+			"name": "Potion Formulas",
+			"source": "TOH",
+			"className": "Potions",
+			"classSource": "TOH",
 			"page": 85,
 			"level": 1,
 			"entries": [
-				"At 1st level, you form a contract with a voidsent known as a {@creature Void Avatar|FFXIV}. Drawn to your location due to massive loss of life, you've formed a contract to borrow power from the voidsent and received a momento from it to symbolize your contract. You can review their stats in the statblock below.",
-				"In combat, the voidsent acts during your turn. It can move and use its reaction on its own, but the only action it takes is the {@action Dodge} action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the {@action Attack} action to command the voidsent to take the {@action Attack} action. If you are {@condition incapacitated}, the voidsent can take any action of its choice, not just {@action Dodge}.",
-				"When the voidsent is killed, its essence returns to your momento. You can use your action to touch your momento and expaned a spell slot of 1st level or higher. The voidsent regains its form after 1 minute with all its hit points restored.",
-				"When you finish a long rest, you may resummon your voidsent from its momento. If it is still active it regains all its hit points."
+				"At first level, you can learn three potion formulas at 1st level. You learn an additional potion formula at 3rd, 9th, 14th, and 17th levels. In order to use these potions formulas, you must have your Potion Pouch on you. The saving throw DC is 8 + proficiency bonus + your Dexterity Modifier.",
+				
 			]
 		},
 		{
